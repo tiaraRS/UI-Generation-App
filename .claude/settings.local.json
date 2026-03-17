@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__playwright__*",
+      "Read(//tmp/**)",
+      "Bash(xxd /tmp/chat_response.txt)",
+      "Bash(curl -v -X POST http://localhost:3000/api/chat -H \"Content-Type: application/json\" -d '{\"\"\"\"messages\"\"\"\":[{\"\"\"\"id\"\"\"\":\"\"\"\"1\"\"\"\",\"\"\"\"role\"\"\"\":\"\"\"\"user\"\"\"\",\"\"\"\"content\"\"\"\":\"\"\"\"Create a pricing card component\"\"\"\",\"\"\"\"parts\"\"\"\":[{\"\"\"\"type\"\"\"\":\"\"\"\"text\"\"\"\",\"\"\"\"text\"\"\"\":\"\"\"\"Create a pricing card component\"\"\"\"}]}],\"\"\"\"files\"\"\"\":{},\"\"\"\"projectId\"\"\"\":null}' --max-time 30)"
+    ]
+  }
+}
